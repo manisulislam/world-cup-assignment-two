@@ -150,6 +150,9 @@ body {
     gap: 15px;
     padding: 10px;
 }
+.main-contain img{
+    width: 100%;
+}
 /* 
 .state-one {
     /* background-color: royalblue; */
@@ -231,7 +234,7 @@ body {
     width: 100%;
 }
 
-.tablet-view {
+/* .tablet-view {
     background-color: #DD0000;
     color: white;
     padding: 10px;
@@ -240,7 +243,7 @@ body {
     border-radius: 10px;
     margin-bottom: 15px;
     display: none;
-}
+} */
 
 .footer {
     background-color: black;
