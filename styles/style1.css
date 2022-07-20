@@ -165,7 +165,10 @@ body {
     padding: 10px;
     flex-direction: row;
     align-content: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+}
+.clock{
+    padding: 10px;
 }
 
 .state-two {
