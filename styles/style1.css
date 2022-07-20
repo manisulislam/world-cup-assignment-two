@@ -43,7 +43,7 @@ body {
 
 .card-text {
     height: 70vh;
-    width: 50%%;
+    width: 50%;
     /* background-color: white; */
 
 }
@@ -73,7 +73,8 @@ body {
     margin-left: 20px;
     border-radius: 10px;
 }
-.watch-live-btn:hover{
+
+.watch-live-btn:hover {
     width: 300px;
     transition: width 2s;
 }
@@ -89,6 +90,7 @@ body {
 .card-image img {
     width: 95%;
 }
+
 /* .brazil-player:hover{
     width: 300px;
 } */
@@ -120,9 +122,10 @@ body {
     border-radius: 10px;
     margin-bottom: 20px;
 }
-.upcomming-match:hover{
+
+.upcomming-match:hover {
     background-color: green;
-  
+
 }
 
 .link-button-one {
@@ -147,11 +150,11 @@ body {
     gap: 15px;
     padding: 10px;
 }
-
+/* 
 .state-one {
     /* background-color: royalblue; */
 
-}
+ */
 
 .state-one img {
     width: 100%;
@@ -182,50 +185,61 @@ body {
 .clock {
     padding: 10px;
 }
-
-.state-two {
+/* 
+/* .state-two {
     /* background-color: blueviolet; */
 
-}
+*/ 
 
 .state-two img {
-    width: 100%;
+    width: 50%;
 }
 
-.state-three {
+/* .state-three {
     /* background-color: aquamarine; */
 
-}
+*/
 
 .state-three img {
     width: 100%;
 }
 
-.state-four {
+/* .state-four {
     /* background-color: blanchedalmond; */
 
-}
+*/
 
 .state-four img {
     width: 100%;
 }
 
-.state-five {
+/* .state-five {
     /* background-color: yellow; */
 
-}
+*/
 
 .state-five img {
     width: 100%;
 }
 
-.state-six {
+/* .state-six {
     /* background-color: indianred; */
 
-}
+ */
 
 .state-six img {
     width: 100%;
+}
+
+.tablet-view {
+    background-color: #DD0000;
+    color: white;
+    padding: 10px;
+    justify-content: cente;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    display: none;
 }
 
 .footer {
@@ -263,4 +277,12 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+/* media query start */
+@media only screen and (max-widht:768px) {
+    .main-contain {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
 }
