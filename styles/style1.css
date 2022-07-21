@@ -287,5 +287,15 @@ body {
         grid-template-columns: repeat(2, 1fr);
 
     }
+    .card-text{
+        height: 260vh;
+    }
+    .card-image{
+        margin-left: 50px;
+    }
+    .header{
+        align-items: center;
+    }
+
 
 }
